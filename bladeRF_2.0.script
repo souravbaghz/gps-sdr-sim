@@ -1,0 +1,9 @@
+set frequency tx1 1575.42M
+set frequency tx2 1575.42M
+set samplerate 2.6M
+set bandwidth 20M
+set gain tx1 56
+set gain tx2 56
+tx config file=gpssim.bin format=bin
+tx start
+tx wait
